@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-    void print_sp(int i,int n){
+void print_sp(int i,int n){
     for(int sp=1;sp<=n-i;sp++){
         printf(" ");
     }
-    }
+}
     
-    void print_num(int n){
+void print_num(int n){
     for(int i=0;i<n;i++){
         printf("%d ",n);
     }
